@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-VariableFont_wdth,wght.ttf);
+}
+
+body{
+    font-family: 'Roboto';
+    color: #212121;
+    background-color: #ffffff;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.article-h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section2-h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.section3-h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.section3-h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.section3-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+
+
+
+
+
