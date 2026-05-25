@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web studio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
 <body>
@@ -17,49 +18,55 @@
 
         <nav class="nav">
             <ul class="header-list">
-                <li class="header-item"><a href="studio">Студія</a></li>
-                <li class="header-item"><a href="portfolio">Портфоліо</a></li>
-                <li class="header-item"><a href="contact">Контакти</a></li>
+                <li><a class="header-link link1" href="studio">Студія</a></li>
+                <li><a class="header-link" href="portfolio">Портфоліо</a></li>
+                <li><a class="header-link" href="contact">Контакти</a></li>
             </ul>
         </nav>
 
         <ul class="header-list2">
-            <li class="header-item2"><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li class="header-item2"><p>+38 096 111 11 11</p></li>
+            <li><a class="header-link2" href="info@devstudio.com">info@devstudio.com</a></li>
+            <li>
+                <p class="header-text">+38 096 111 11 11</p>
+            </li>
         </ul>
 
     </header>
 
-    <hr>
-
     <main>
         <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <h1 class="hero hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="hero hero-btn">Замовити послугу</button>
         </section>
-        <button class="btn">Замовити послугу</button>
-
-        <hr>
 
         <section class="section1">
 
             <article class="article">
-                <h3 class="article-h3">УВАГА ДО ДЕТАЛЕЙ</h3>
-                <p class="articl-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                <ul class="article-list">
+                    <li class="article-item"><h3 class="article-h3">УВАГА ДО ДЕТАЛЕЙ</h3></li>
+                    <li class="article-item"><p class="article-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
+                </ul>
             </article>
 
             <article class="article">
-                <h3 class="article-h3">ПУНКТУАЛЬНІСТЬ</h3>
-                <p class="article-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <ul class="article-list">
+                <li class="article-item"><h3 class="article-h3">ПУНКТУАЛЬНІСТЬ</h3></li>
+                <li class="article-item"><p class="article-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
+                </ul>
             </article>
 
             <article class="article">
-                <h3 class="article-h3">ПЛАНУВАННЯ</h3>
-                <p class="article-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                <ul class="article-list">
+                <li class="article-item"><h3 class="article-h3">ПЛАНУВАННЯ</h3></li>
+                <li class="article-item"><p class="article-text">Так само консультація з широким активом значною мірою зумовлює.</p></li>
+                </ul>
             </article>
 
             <article class="article">
-                <h3 class="article-h3">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p class="article-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <ul class="article-list">
+                <li class="article-item"><h3 class="article-h3">СУЧАСНІ ТЕХНОЛОГІЇ</h3></li>
+                <li class="article-item"><p class="article-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
+                </ul>
             </article>
 
         </section>
@@ -68,65 +75,67 @@
 
             <h2 class="section2-h2">Чим ми займаємося</h2>
 
-        <article class="post">
-                <img src="img.png" width="350" height="220" alt="img1" class="post-img">
-        </article>
+            <div class="box">
+            <article class="post">
+                <img src="img.png" width="370" height="294" alt="img1" class="post-img">
+            </article>
 
-        <article class="post">
-            <img src="box 2 (1).png" width="350" height="220" alt="img2" class="post-img">
-        </article>
+            <article class="post">
+                <img src="box 2 (1).png" width="370" height="294" alt="img2" class="post-img">
+            </article>
 
-        <article class="post">
-            <img src="box 3.png" width="350" height="220" alt="img3" class="post-img">
-        </article>
+            <article class="post">
+                <img src="box 3.png" width="370" height="294" alt="img3" class="post-img">
+            </article>
+            </div>
 
         </section>
-
-        <hr>
 
         <section class="section3" id="#portfolio">
 
             <h2 class="section3-h2">Наша команда</h2>
 
+            <div class="container">
+
             <article class="post1">
-            <img src="img (3).jpg" width="270" height="260" alt="" class="post-img">
+                <img src="img (3).jpg" width="270" height="260" alt="" class="post-img">
                 <h3 class="section3-h3">Ігор Дем'яненко</h3>
                 <p class="section3-text">Product Designer</p>
             </article>
 
             <article class="post1">
-            <img src="img.jpg" width="270" height="260" alt="" class="post-img"></img>
+                <img src="img.jpg" width="270" height="260" alt="" class="post-img"></img>
                 <h3 class="section3-h3">Ольга Рєпіна</h3>
                 <p class="section3-text">Frontend Developer</p>
             </article>
-            
+
             <article class="post1">
-            <img src="img (1).jpg" width="270" height="260" alt="" class="post-img"></img>
+                <img src="img (1).jpg" width="270" height="260" alt="" class="post-img"></img>
                 <h3 class="section3-h3">Микола Тарасов</h3>
                 <p class="section3-text">Marketing</p>
             </article>
-            
+
             <article class="post1">
-            <img src="img (2).jpg" width="270" height="260" alt="" class="post-img"></img>
+                <img src="img (2).jpg" width="270" height="260" alt="" class="post-img"></img>
                 <h3 class="section3-h3">Михайло Єрмаков</h3>
                 <p class="section3-text">UI Designer</p>
             </article>
-            
+
+            </div>
+
 
         </section>
 
     </main>
 
-    <hr>
-
-    <footer id="#contact">
+    <footer class="footer" id="#contact">
 
         <a href="#" class="contact-link">
             <img src="WebStudio.png" alt="WebStudio" class="img">
         </a>
 
         <ul class="contact-list">
-            <li class="contatc-item">
+            <li class="contatc-item item">
                 м. Київ, пр-т Лесі Українки, 26
             </li>
             <li class="contatc-item">
@@ -138,6 +147,5 @@
         </ul>
 
     </footer>
-</body>
 
 </html>
