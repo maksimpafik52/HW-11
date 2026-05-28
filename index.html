@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web studio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
@@ -35,47 +37,41 @@
 
     <main>
         <section class="hero">
-            <h1 class="hero hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero hero-btn">Замовити послугу</button>
+            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="hero-btn">Замовити послугу</button>
         </section>
 
         <section class="section1">
+    <div class="container">
+        
+        <ul class="article-list">
+            <li class="article-item">
+                <h3 class="article-h3">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="article-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            </li>
+            <li class="article-item">
+                <h3 class="article-h3">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="article-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            </li>
+            <li class="article-item">
+                <h3 class="article-h3">ПЛАНУВАННЯ</h3>
+                <p class="article-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            </li>
+            <li class="article-item">
+                <h3 class="article-h3">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="article-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            </li>
+        </ul>
 
-            <article class="article">
-                <ul class="article-list">
-                    <li class="article-item"><h3 class="article-h3">УВАГА ДО ДЕТАЛЕЙ</h3></li>
-                    <li class="article-item"><p class="article-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
-                </ul>
-            </article>
-
-            <article class="article">
-                <ul class="article-list">
-                <li class="article-item"><h3 class="article-h3">ПУНКТУАЛЬНІСТЬ</h3></li>
-                <li class="article-item"><p class="article-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
-                </ul>
-            </article>
-
-            <article class="article">
-                <ul class="article-list">
-                <li class="article-item"><h3 class="article-h3">ПЛАНУВАННЯ</h3></li>
-                <li class="article-item"><p class="article-text">Так само консультація з широким активом значною мірою зумовлює.</p></li>
-                </ul>
-            </article>
-
-            <article class="article">
-                <ul class="article-list">
-                <li class="article-item"><h3 class="article-h3">СУЧАСНІ ТЕХНОЛОГІЇ</h3></li>
-                <li class="article-item"><p class="article-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
-                </ul>
-            </article>
-
+    </div>
         </section>
 
         <section class="section2" id="#studio">
 
             <h2 class="section2-h2">Чим ми займаємося</h2>
 
-            <div class="box">
+            <div class="flex-container">
+                
             <article class="post">
                 <img src="img.png" width="370" height="294" alt="img1" class="post-img">
             </article>
@@ -95,7 +91,7 @@
 
             <h2 class="section3-h2">Наша команда</h2>
 
-            <div class="container">
+            <div class="flex-container">
 
             <article class="post1">
                 <img src="img (3).jpg" width="270" height="260" alt="" class="post-img">
@@ -130,8 +126,10 @@
 
     <footer class="footer" id="#contact">
 
-        <a href="#" class="contact-link">
-            <img src="WebStudio.png" alt="WebStudio" class="img">
+        <div class="padding-box">
+
+        <a href="#" class="footer-logo">
+            <span class="logo-accent">Web</span>Studio
         </a>
 
         <ul class="contact-list">
@@ -145,6 +143,8 @@
                 +38 096 111 11 11
             </li>
         </ul>
+
+        </div>
 
     </footer>
 
